@@ -1,0 +1,1529 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.header1{
+    text-align: center;
+    background-color: rgba(235,203,187,255);
+    overflow: hidden;
+    font-size: 30px;
+    height: 200px;
+    position: absolute;
+     top: 0;
+    left: 0; 
+    width: 100%;
+}
+
+.header1 h1{
+    margin-left: 300px;
+}
+
+.header2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 200vh;
+    background-color: rgba(108,153,154,255);
+    margin-left: 100px;
+    
+} 
+
+.myself-image{
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  height: 200px;
+  margin-left: 70px;
+  margin-top: 20px;
+  border: 3px solid whitesmoke;
+}
+
+.profile{
+    margin-left: 100px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.student{
+    font-size: 22px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.headings{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+.sub-heading{
+    color: aliceblue;
+    margin-left: 700px;
+    font-size: 30px;
+}
+
+.para{
+    color: aliceblue;
+    margin-left: 700px;
+    font-size: 23px;
+}
+
+.heading2{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 100px;
+
+}
+
+.heading3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 220px;
+
+}
+
+.para2{
+    margin-left: 1000px;
+    font-size: 23px;
+    color: aliceblue;
+    margin-top: -170px;
+}
+
+.heading4{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 340px;
+
+}
+
+.Contact{
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.student2{
+    font-size: 22px;
+   margin-left: 40px;
+    color: aliceblue;
+}
+
+.Contact2{
+   
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#skills{
+    display: none;
+}
+#toogleBut{
+    margin-left: 800px;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aquamarine;
+    color: black;
+    text-shadow: 1px 2px 3px;
+    box-shadow: 2px 3px 3px 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+
+
+@media (min-width:230px) and (max-width:329px){
+    .header1{
+        width:332px ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 18px;
+     margin-left: 200px;
+    }
+    .header2{
+        width: 170px;
+        margin-left: -30px;
+        height: 150vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 16px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 22px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 22px;
+    }
+
+    .headings{
+        font-size: 22px;
+        margin-left: 130px;
+        margin-top: 110px;
+    }
+
+    .heading2{
+font-size: 22px;
+margin-top: 20px;
+margin-left: 130px;
+    }
+    .heading3{
+  font-size: 22px;
+  margin-left: 130px;
+
+    }
+    .heading4{
+   font-size: 20px;
+   margin-top: 40px;
+   margin-left: 130px;
+    }
+
+    .sub-heading{
+        font-size: 17px;
+        margin-left: 150px;
+    }
+    .para{
+        font-size: 15px;
+        margin-left: 140px;
+    }
+    .para2{
+        width: auto;
+        font-size: 15px;
+        margin-left: 150px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 150px;
+    }
+    
+}
+
+
+@media (min-width:329px) and (max-width:389px){
+    .header1{
+        width:370px ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 18px;
+     margin-left: 150px;
+    }
+    .header2{
+        width: 170px;
+        margin-left: -30px;
+        height: 150vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 16px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 22px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 22px;
+    }
+
+    .headings{
+        font-size: 22px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 22px;
+margin-top: 20px;
+margin-left: 100px;
+    }
+    .heading3{
+  font-size: 22px;
+  margin-left: 110px;
+
+    }
+    .heading4{
+   font-size: 21px;
+   margin-top: 40px;
+   margin-left: 90px;
+    }
+
+    .sub-heading{
+        font-size: 17px;
+        margin-left: 150px;
+    }
+    .para{
+        font-size: 15px;
+        margin-left: 140px;
+    }
+    .para2{
+        width: auto;
+        font-size: 15px;
+        margin-left: 150px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 150px;
+    }
+    
+}
+
+@media (min-width:389px) and (max-width:400px){
+    .header1{
+        width:400px ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 18px;
+     margin-left: 150px;
+    }
+    .header2{
+        width: 170px;
+        margin-left: -30px;
+        height: 150vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 16px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 22px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 22px;
+    }
+
+    .headings{
+        font-size: 22px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 22px;
+margin-top: 20px;
+margin-left: 100px;
+    }
+    .heading3{
+  font-size: 22px;
+  margin-left: 110px;
+
+    }
+    .heading4{
+   font-size: 21px;
+   margin-top: 40px;
+   margin-left: 90px;
+    }
+
+    .sub-heading{
+        font-size: 17px;
+        margin-left: 150px;
+    }
+    .para{
+        font-size: 15px;
+        margin-left: 140px;
+    }
+    .para2{
+        width: auto;
+        font-size: 15px;
+        margin-left: 150px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 150px;
+    }
+    
+}
+@media (min-width:400px) and (max-width:429px){
+    .header1{
+        width:408px ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 18px;
+     margin-left: 150px;
+    }
+    .header2{
+        width: 170px;
+        margin-left: -30px;
+        height:120vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 16px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 22px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 22px;
+    }
+
+    .headings{
+        font-size: 22px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 22px;
+margin-top: 20px;
+margin-left: 100px;
+    }
+    .heading3{
+  font-size: 22px;
+  margin-left: 110px;
+
+    }
+    .heading4{
+   font-size: 20px;
+   margin-top: 40px;
+   margin-left: 120px;
+    }
+
+    .sub-heading{
+        font-size: 17px;
+        margin-left: 150px;
+    }
+    .para{
+        font-size: 15px;
+        margin-left: 140px;
+    }
+    .para2{
+        width: auto;
+        font-size: 15px;
+        margin-left: 150px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 150px;
+    }
+    
+}
+
+@media (min-width:429px) and (max-width:450px){
+    .header1{
+        width:420px ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 18px;
+     margin-left: 150px;
+    }
+    .header2{
+        width: 170px;
+        margin-left: -30px;
+        height:120vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 16px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 22px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 22px;
+    }
+
+    .headings{
+        font-size: 22px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 22px;
+margin-top: 20px;
+margin-left: 100px;
+    }
+    .heading3{
+  font-size: 22px;
+  margin-left: 110px;
+
+    }
+    .heading4{
+   font-size: 20px;
+   margin-top: 40px;
+   margin-left: 120px;
+    }
+
+    .sub-heading{
+        font-size: 17px;
+        margin-left: 150px;
+    }
+    .para{
+        font-size: 15px;
+        margin-left: 140px;
+    }
+    .para2{
+        width: auto;
+        font-size: 15px;
+        margin-left: 150px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 150px;
+    }
+    
+}
+
+
+
+
+
+
+@media (min-width:450px) and (max-width:480px){
+    .header1{
+        width:460px ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 18px;
+     margin-left: 150px;
+    }
+    .header2{
+        width: 170px;
+        margin-left: -30px;
+        height:120vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 18px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 22px;
+      
+    }
+    .student2{
+        font-size: 18px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 22px;
+    }
+
+    .headings{
+        font-size: 22px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 22px;
+margin-top: 20px;
+margin-left: 100px;
+    }
+    .heading3{
+  font-size: 22px;
+  margin-left: 110px;
+
+    }
+    .heading4{
+   font-size: 22px;
+   margin-top: 40px;
+   margin-left: 120px;
+    }
+
+    .sub-heading{
+        font-size: 18px;
+        margin-left: 150px;
+    }
+    .para{
+        font-size: 18px;
+        margin-left: 140px;
+    }
+    .para2{
+        width: auto;
+        font-size: 18px;
+        margin-left: 150px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 150px;
+    }
+    
+}
+
+
+
+
+
+
+
+@media (min-width:480px) and (max-width:540px){
+    .header1{
+        width:520px ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 18px;
+     margin-left: 150px;
+    }
+    .header2{
+        width: 170px;
+        margin-left: -30px;
+        height:120vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 19px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 25px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 25px;
+    }
+
+    .headings{
+        font-size: 25px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 25px;
+margin-top: 20px;
+margin-left: 100px;
+    }
+    .heading3{
+  font-size: 25px;
+  margin-left: 110px;
+
+    }
+    .heading4{
+   font-size: 21px;
+   margin-top: 40px;
+   margin-left: 120px;
+    }
+
+    .sub-heading{
+        font-size: 19px;
+        margin-left: 150px;
+    }
+    .para{
+        font-size: 19px;
+        margin-left: 140px;
+    }
+    .para2{
+        width: auto;
+        font-size: 19px;
+        margin-left: 150px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 150px;
+    }
+    
+}
+
+
+
+@media (min-width:540px) and (max-width:590px){
+    .header1{
+        width:565px ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 23px;
+     margin-left: 150px;
+    }
+    .header2{
+        width: 170px;
+        margin-left: -30px;
+        height:130vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 19px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 24px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 25px;
+    }
+
+    .headings{
+        font-size: 25px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 25px;
+margin-top: 20px;
+margin-left: 50px;
+    }
+    .heading3{
+  font-size: 25px;
+  margin-left: 50px;
+
+    }
+    .heading4{
+   font-size: 25px;
+   margin-top: 40px;
+   margin-left: 50px;
+    }
+
+    .sub-heading{
+        font-size: 20px;
+        margin-left: 150px;
+    }
+    .para{
+        font-size: 23px;
+        margin-left: 140px;
+    }
+    .para2{
+        width: auto;
+        font-size: 23px;
+        margin-left: 150px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 150px;
+    }
+    
+}
+
+
+@media (min-width:590px) and (max-width:650px){
+    .header1{
+        width:590px ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 23px;
+     margin-left: 150px;
+    }
+    .header2{
+        width: 170px;
+        margin-left: -30px;
+        height:130vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 19px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 24px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 25px;
+    }
+
+    .headings{
+        font-size: 25px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 25px;
+margin-top: 20px;
+margin-left: 50px;
+    }
+    .heading3{
+  font-size: 25px;
+  margin-left: 50px;
+
+    }
+    .heading4{
+   font-size: 25px;
+   margin-top: 40px;
+   margin-left: 50px;
+    }
+
+    .sub-heading{
+        font-size: 20px;
+        margin-left: 150px;
+    }
+    .para{
+        font-size: 23px;
+        margin-left: 140px;
+    }
+    .para2{
+        width: auto;
+        font-size: 23px;
+        margin-left: 150px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 150px;
+    }
+    
+}
+
+
+
+
+@media (min-width:650px) and (max-width:670px){
+    .header1{
+        width:698 ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 23px;
+     margin-left: 120px;
+    }
+    .header2{
+        width: 170px;
+        margin-left: -30px;
+        height:130vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 19px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 24px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 25px;
+    }
+
+    .headings{
+        font-size: 25px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 25px;
+margin-top: 20px;
+margin-left: 50px;
+    }
+    .heading3{
+  font-size: 25px;
+  margin-left: 50px;
+
+    }
+    .heading4{
+   font-size: 25px;
+   margin-top: 40px;
+   margin-left: 50px;
+    }
+
+    .sub-heading{
+        font-size: 20px;
+        margin-left: 150px;
+    }
+    .para{
+        font-size: 23px;
+        margin-left: 140px;
+    }
+    .para2{
+        width: auto;
+        font-size: 23px;
+        margin-left: 150px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 150px;
+    }
+    
+}
+
+
+
+
+@media (min-width:670px) and (max-width:730px){
+    .header1{
+        width:730px ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 23px;
+     margin-left: 120px;
+    }
+    .header2{
+        width: 190px;
+        margin-left: -30px;
+        height:130vh;
+    }
+
+    .myself-image{
+       width: 120px;
+       height: 120px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 22px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 19px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 24px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 25px;
+    }
+
+    .headings{
+        font-size: 27px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 26px;
+margin-top: 20px;
+margin-left: 40px;
+    }
+    .heading3{
+  font-size: 26px;
+  margin-left: 50px;
+
+    }
+    .heading4{
+   font-size: 25px;
+   margin-top: 40px;
+   margin-left: 50px;
+    }
+
+    .sub-heading{
+        font-size: 20px;
+        margin-left: 190px;
+    }
+    .para{
+        font-size: 25px;
+        margin-left: 190px;
+    }
+    .para2{
+        width: auto;
+        font-size: 25px;
+        margin-left: 190px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 190px;
+    }
+    
+}
+
+
+
+
+
+@media (min-width:729px) and (max-width:800px){
+    .header1{
+        width: 740px; ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 28px;
+     margin-left: 120px;
+    }
+    .header2{
+        width: 230px;
+        margin-left: -30px;
+        height:130vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 20px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 24px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 25px;
+    }
+
+    .headings{
+        font-size: 27px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 27px;
+margin-top: 20px;
+margin-left: 50px;
+    }
+    .heading3{
+  font-size: 27px;
+  margin-left: 50px;
+
+    }
+    .heading4{
+   font-size: 27px;
+   margin-top: 40px;
+   margin-left: 50px;
+    }
+
+    .sub-heading{
+        font-size: 20px;
+        margin-left: 240px;
+    }
+    .para{
+        font-size: 26px;
+        margin-left: 230px;
+    }
+    .para2{
+        width: auto;
+        font-size: 26px;
+        margin-left: 220px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 230px;
+    }
+    
+}
+
+
+
+
+
+
+@media (min-width:800px) and (max-width:900px){
+    .header1{
+        width: 860px; ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 28px;
+     margin-left: 120px;
+    }
+    .header2{
+        width: 230px;
+        margin-left: -30px;
+        height:130vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 20px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 24px;
+      
+    }
+    .student2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 25px;
+    }
+
+    .headings{
+        font-size: 27px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 27px;
+margin-top: 20px;
+margin-left: 50px;
+    }
+    .heading3{
+  font-size: 27px;
+  margin-left: 50px;
+
+    }
+    .heading4{
+   font-size: 27px;
+   margin-top: 40px;
+   margin-left: 50px;
+    }
+
+    .sub-heading{
+        font-size: 20px;
+        margin-left: 240px;
+    }
+    .para{
+        font-size: 26px;
+        margin-left: 230px;
+    }
+    .para2{
+        width: auto;
+        font-size: 26px;
+        margin-left: 220px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 230px;
+    }
+    
+}
+
+
+@media (min-width:900px) and (max-width:1000px){
+    .header1{
+        width: 920px; ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 28px;
+     margin-left: 120px;
+    }
+    .header2{
+        width: 250px;
+        margin-left: -30px;
+        height:140vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 27px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 22px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 24px;
+      
+    }
+    .student2{
+        font-size: 20px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 25px;
+    }
+
+    .headings{
+        font-size: 27px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 30px;
+margin-top: 20px;
+margin-left: 50px;
+    }
+    .heading3{
+  font-size: 30px;
+  margin-left: 50px;
+
+    }
+    .heading4{
+   font-size: 30px;
+   margin-top: 40px;
+   margin-left: 50px;
+    }
+
+    .sub-heading{
+        font-size: 23px;
+        margin-left: 240px;
+    }
+    .para{
+        font-size: 27px;
+        margin-left: 230px;
+    }
+    .para2{
+        width: auto;
+        font-size: 27px;
+        margin-left: 220px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 230px;
+    }
+    
+}
+
+
+
+@media (min-width:1000px) and (max-width:1100px){
+    .header1{
+        width: 1020px; ;
+        height: 100px;
+        overflow-x: hidden;
+       
+    }
+
+   
+    .header1 h1{
+        font-size: 28px;
+     margin-left: 120px;
+    }
+    .header2{
+        width: 250px;
+        margin-left: 30px;
+        height:140vh;
+    }
+
+    .myself-image{
+       width: 100px;
+       height: 100px;
+       margin-left: 40px;
+    }
+    .profile{
+        font-size: 27px;
+        margin-left: 40px;
+    }
+    .student{
+        font-size: 22px;
+        width:auto;
+        margin-left: 30px;
+
+    }
+
+    .Contact{
+        font-size: 24px;
+      
+    }
+    .student2{
+        font-size: 20px;
+        width: auto;
+        margin-left: 35px;
+    }
+    .Contact2{
+        font-size: 25px;
+    }
+
+    .headings{
+        font-size: 27px;
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+
+    .heading2{
+font-size: 30px;
+margin-top: 20px;
+margin-left: 50px;
+    }
+    .heading3{
+  font-size: 30px;
+  margin-left: 50px;
+
+    }
+    .heading4{
+   font-size: 30px;
+   margin-top: 40px;
+   margin-left: 50px;
+    }
+
+    .sub-heading{
+        font-size: 23px;
+        margin-left: 290px;
+    }
+    .para{
+        font-size: 28px;
+        margin-left: 290px;
+    }
+    .para2{
+        width: auto;
+        font-size: 28px;
+        margin-left: 290px;
+        margin-top: 40px
+    }
+    #toogleBut{
+        margin-left: 290px;
+    }
+    
+}
